@@ -7,9 +7,15 @@ body{
     height: auto;
 }
 
-header{
-    margin-bottom: 2%;
+.copyRight{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 12px;
+    opacity: 0.5;
+    padding: 5px;
 }
+
+/* ------------Navigation------------- */
 
 .inline-block{
     display: inline-block;
@@ -67,6 +73,8 @@ li{
     padding-left: 55px;
 }
 
+/* ------------Hero Section------------- */
+
 .heroimg{
     display: flex;
     align-items: center;
@@ -74,6 +82,11 @@ li{
     margin: 0 auto;
     font-size: 14px;
     font-family: "Playfair Display", serif;
+}
+
+.heroText{
+    text-align: left;
+    padding-right: 80px;
 }
 
 .floatRight{
@@ -114,12 +127,79 @@ button:hover{
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 40px 0 rgba(0,0,0,0.19);
 }
 
+/* ------------My Ux Skills------------- */
+
+h1{
+    background-color: #68C7CE;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: "futura", sans-serif;
+    text-transform: uppercase;
+}
+
+h3{
+    margin: 0%;
+    text-align: center;
+    font-family: "futura", sans-serif;
+    text-transform: uppercase; 
+}
+
+p{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 12.5px;
+    line-height: 18px;
+}
+
+.flexContainer{
+    display: flex;
+}
+
+#flexChild{
+    margin: 10px;
+    padding-inline: 60px;
+    width: 30%;
+    height: 350px;
+}
+
+#flexChild img{
+    height: 100%;
+    width: 100%;
+}
+
+/* ------------My Work------------- */
+
+.workGrid{
+    display: grid;
+}
+
+.myWork{
+    margin-top: 16%;
+}
+
+/* ------------Footer------------- */
+
 footer{
     background-color: #68C7CE;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 footer ul{
     display: inline-block;
     vertical-align: top;
 }
+
+@media only screen and (max-width: 1280px) {
+    body{
+        flex-wrap: wrap;
+    }
+    }
+    
+@media only screen and (max-width: 600px) {
+
+    body{
+        background-color: lightblue;
+    }
+
+    }
