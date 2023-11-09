@@ -215,17 +215,73 @@ footer ul{
     display: inline-block;
     vertical-align: top;
 }
-
-@media only screen and (max-width: 1280px) {
-    body{
-        flex-wrap: wrap;
-    }
-    }
     
-@media only screen and (max-width: 600px) {
-
-    body{
-        background-color: lightblue;
+@media only screen and (min-width: 767px) {
+    .navigation .inline-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
+    .navigation ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
+
+    .navigation li{
+        padding: 0;
+    }
+
+    .navigation img{
+        padding: 0;
+    }
+
+    .heroimg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heroimg .heroText{ 
+        text-align: center;
+        padding-right: 0;
+        font-size: smaller;
+    }
+
+    .flexContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #flexChild{
+        margin: 0;
+        padding-inline: 0;
+        height: auto;
+    }
+
+    .myWork{
+        margin: 0;
+    }
+
+    .workGrid{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .gridContent p{
+        padding-right: 0;
+        text-align: center;
+        font-size: 11px;
+        line-height: 15px;
+        padding-inline: 50px;
+    }
+
+    .gridContent button{
+        margin-bottom: 5%;
+    }
+
+}
