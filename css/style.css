@@ -216,7 +216,7 @@ footer ul{
     vertical-align: top;
 }
     
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 680px) {
     .navigation .inline-block{
         display: flex;
         flex-direction: column;
