@@ -216,7 +216,7 @@ footer ul{
     vertical-align: top;
 }
     
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 767px) {
     .navigation .inline-block{
         display: flex;
         flex-direction: column;
@@ -275,9 +275,9 @@ footer ul{
     .gridContent p{
         padding-right: 0;
         text-align: center;
-        font-size: 11px;
-        line-height: 15px;
-        padding-inline: 50px;
+        font-size: 13px;
+        line-height: 20px;
+        padding-inline: 60px;
     }
 
     .gridContent button{
